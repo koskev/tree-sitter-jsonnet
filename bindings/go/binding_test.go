@@ -3,8 +3,8 @@ package tree_sitter_jsonnet_test
 import (
 	"testing"
 
-	tree_sitter "github.com/smacker/go-tree-sitter"
-	"github.com/tree-sitter/tree-sitter-jsonnet"
+	tree_sitter_jsonnet "github.com/koskev/tree-sitter-jsonnet/bindings/go"
+	tree_sitter "github.com/tree-sitter/go-tree-sitter"
 )
 
 func TestCanLoadGrammar(t *testing.T) {
