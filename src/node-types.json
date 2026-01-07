@@ -1481,6 +1481,7 @@
   {
     "type": "document",
     "named": true,
+    "root": true,
     "fields": {},
     "children": {
       "multiple": true,
@@ -3857,6 +3858,16 @@
     }
   },
   {
+    "type": "string_end",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "string_start",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "unary",
     "named": true,
     "fields": {
@@ -4008,7 +4019,15 @@
     "named": false
   },
   {
+    "type": "\"",
+    "named": false
+  },
+  {
     "type": "%",
+    "named": false
+  },
+  {
+    "type": "'",
     "named": false
   },
   {
@@ -4125,7 +4144,8 @@
   },
   {
     "type": "comment",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "dollar",
@@ -4185,14 +4205,6 @@
   },
   {
     "type": "self",
-    "named": true
-  },
-  {
-    "type": "string_end",
-    "named": true
-  },
-  {
-    "type": "string_start",
     "named": true
   },
   {
